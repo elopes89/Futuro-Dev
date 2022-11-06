@@ -7,11 +7,11 @@ import lombok.Data;
 @Data
 public abstract class Pessoa {
 
-	String nome;
-	long telefone;
-	LocalDate dataNascimento;
-	long cpf;
-	int codigo;
+	private String nome;
+	private long telefone;
+	private LocalDate dataNascimento;
+	private long cpf;
+	private int codigo;
 
 	public Pessoa(String nome, int codigo, long cpf, LocalDate data, long tel) {
 		this.nome = nome;
